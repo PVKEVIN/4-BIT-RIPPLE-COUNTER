@@ -37,7 +37,7 @@ Program for 4 Bit Ripple Counter and verify its truth table in quartus using Ver
 
 **PROGRAM**
 ```
-Developed by: A.Ranen Joseph Solomon RegisterNumber: 24006171
+Developed by: P Kevin RegisterNumber: 24901145
 ```
 ```
 module RippleCounter(
@@ -111,4 +111,5 @@ endmodule
 **RESULTS**
 
 The 4-bit ripple counter was successfully implemented using Verilog in Quartus Prime. The functionality was verified using a testbench, which simulated the counter's operation. The counter correctly counted from 0000 to 1111, incrementing by 1 on each clock pulse. After reaching 1111, the counter reset to 0000, as expected. The timing diagrams and the functional table showed that the ripple counter operated as intended, with each flip-flop toggling on the rising edge of the previous flip-flop's output. The simulation results confirmed the correct operation of the 4-bit ripple counter.
+
 
